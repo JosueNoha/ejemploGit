@@ -45,3 +45,8 @@ git clone url: copia desde un repositorio remoto EL directorio master y el repos
 git push: Envia nuestro repositorio local el repositorio remoto
 git fetch: Trae los cambios del repositorio remoto al local (para actualizar el directorio es necesario hacer un git merge)
 git pull: combina las acciones de git fetch u git merge
+
+git commit -a: fuciona los comandos git add y git commit (siempre y cuando existan en el repositorio)
+git brach <rama> crea la una nueva rama a partir del commit actual
+git checkout <rama> ir a la rama
+HEAD apuntuador de la rama actual
