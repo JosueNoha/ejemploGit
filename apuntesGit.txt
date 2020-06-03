@@ -50,3 +50,6 @@ git commit -a: fuciona los comandos git add y git commit (siempre y cuando exist
 git brach <rama> crea la una nueva rama a partir del commit actual
 git checkout <rama> ir a la rama
 HEAD apuntuador de la rama actual
+
+git branch: ver las ramas
+git merge <rama*> "mensaje": trae los cambios de rama* a rama actual
