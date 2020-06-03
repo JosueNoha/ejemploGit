@@ -30,3 +30,9 @@ git show <archivo>: muestra los ultimos cambios en archivo
 git diff <indicador1> <indicador2>: muestra cambios entre los commits indicados; considera indicador2 como el mas reciente
 
 Nota: commit sin mensaje: abre un editor VIM
+
+Comandos:
+git reset <indicador> --soft/--hard: regresamos al commit guardado en indicador; soft: solo disco duro, staging se mantiene igual; hard: regresetea todo
+git diff: conpara staging con disco duro
+git log --stat: vista de cambios especificos en cada commit
+git checkout <identificador/rama> <archivo> trae el archivo guardado en identificador o rama a disco duro
