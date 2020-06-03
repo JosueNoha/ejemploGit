@@ -54,8 +54,5 @@ HEAD apuntuador de la rama actual
 git branch: ver las ramas
 git merge <rama*> "mensaje": trae los cambios de rama* a rama actual
 
-<<<<<<< HEAD
 rama prueba1
-=======
 prueba2
->>>>>>> video15
