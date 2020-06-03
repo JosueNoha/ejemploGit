@@ -53,3 +53,13 @@ HEAD apuntuador de la rama actual
 
 git branch: ver las ramas
 git merge <rama*> "mensaje": trae los cambios de rama* a rama actual
+
+
+Solución de conflictos:
+Simbolos de conflictos:
+<<<<<< HEAD
+		conflicto rama actual
+========
+>>>>>> branch merged
+		conflicto rama merged 
+VSC: Links de correccion automatica: Accept Current Change Accept Incoming Change Accept Both Changes 
