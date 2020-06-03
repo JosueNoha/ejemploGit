@@ -1,0 +1,32 @@
+**Ramas**:
+- Herramienta de git para tener diferentes flujos de trabajo y luego fucionarlos.
+- Las ramas se crean copiando un commit anterior (checkout) para luego generar un nuevo flujo sobre este.
+- Fucionar dos ramas (merge) puede generar conflictos: diferencias entre ambos archivos.
+- Algunas ramas usuales son:
+hotfix: rama de solucion de errores
+development: rama de experimentos
+
+
+Comandos git:
+**git init**: crea repositorio en carpeta actual: .git/
+**git status**: ver estado del proyecto
+**git add** <nombrearchivo> envia archivo a staging (nota: usando . puedes mandar toda la carpeta a staging)
+**git rm --cached <nombrearchivo>** remueve el archivo de staging
+**git commit -m <mensaje**>: envia el staging a repositorio con el mensaje
+**git config**: configuraciones de git
+		**-- list:** lista configuraciones basicas de git
+			  **--show-origin** : ubicacion de las configuraciones
+		**-- global user.name <nombre>** cambiar nombre del usuario
+		**-- global user.email <email>** cambiar email del usuario
+**git log <nombre archivo>**: historial de commits del archivo
+
+Nota
+ - para letras de acceso rapido a un comando
+ -- para palabras comando
+
+
+ Comandos:
+git show <archivo>: muestra los ultimos cambios en archivo
+git diff <indicador1> <indicador2>: muestra cambios entre los commits indicados; considera indicador2 como el mas reciente
+
+Nota: commit sin mensaje: abre un editor VIM
