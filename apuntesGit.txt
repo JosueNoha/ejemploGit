@@ -39,3 +39,9 @@ git checkout <identificador/rama> <archivo> trae el archivo guardado en identifi
 
 git reset HEAD: mueve los archivos staged a unstaged.
 a diferencia de git rm --cached no elimina el archivo
+
+Comandos 
+git clone url: copia desde un repositorio remoto EL directorio master y el repositorio
+git push: Envia nuestro repositorio local el repositorio remoto
+git fetch: Trae los cambios del repositorio remoto al local (para actualizar el directorio es necesario hacer un git merge)
+git pull: combina las acciones de git fetch u git merge
