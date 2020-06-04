@@ -87,7 +87,7 @@ Una llave privada: no debes divulgarla, con ella descifras los mensajes cifrados
 
 Cifrado ssh (basado en llaves publicas/privadas)
 Crear llaves:
-ssh-keygen -t rsa *b 4096 -C email
+ssh-keygen -t rsa -b 4096 -C email
 passphase: contraseña adicional a tus llaves
 
 Windows/linus:
@@ -102,3 +102,8 @@ Host *
 	UseKeychain yes
 	IdentifyFile ulr_llaveprivada
 ssh-add -K ulr_llaveprivada
+
+
+Agregar llave publica a git: settings\ssh and GPG keys\ new SSH key: titulo / llavepublica
+git remote set-url origin <urlssh>: cambia la direccion de origin 
+Nota: Crea nuevas llaves por cada dispositivo conectado a git hub
