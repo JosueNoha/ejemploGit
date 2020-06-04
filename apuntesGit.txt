@@ -84,3 +84,21 @@ Llaves publicas/Llaves privadas o Cifrado asimetrico de un solo camino:
 Consite en la creacion de:
 Una llave publica: es publica, no importa quien la sepa con ella se cifra los mensajes.
 Una llave privada: no debes divulgarla, con ella descifras los mensajes cifrados con la llave publica
+
+Cifrado ssh (basado en llaves publicas/privadas)
+Crear llaves:
+ssh-keygen -t rsa *b 4096 -C email
+passphase: contraseña adicional a tus llaves
+
+Windows/linus:
+eval $(ssh-agent -s): evalua si el servidor se llaves ssh esta prendido
+ssh-add url_llaveprivada: agregar la llave privada
+
+Mac
+eval "$(ssh-agent -s)":  evalua si el servidor se llaves ssh esta prendido
+crear/modificar archivo config (sin extension):
+Host *
+	AddKeysToAgent yes
+	UseKeychain yes
+	IdentifyFile ulr_llaveprivada
+ssh-add -K ulr_llaveprivada
