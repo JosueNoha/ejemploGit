@@ -62,4 +62,19 @@ Simbolos de conflictos:
 ========
 >>>>>> branch merged
 		conflicto rama merged 
-VSC: Links de correccion automatica: Accept Current Change Accept Incoming Change Accept Both Changes 
+VSC: Links de correccion automatica: Accept Current Change Accept Incoming Change Accept Both Changes
+
+
+
+GitHub: superservidor de git, interfaz visual de codigos, herramienta colaborativa, repositorio de los programadores.
+README.md: Archivo de texto que explica el repositorio (muy buena practica tenerlo)
+
+git remote add origin url: crea un espacio remoto de nuestro proyecto
+git remote: muestra los espacios remotos del archivo (origin)
+git remote -v (verbal):  muestra los espacios remotos del archivo con su respectiva url y su funcion (fetch/push)
+
+git pull origin master: traer los cambios de espacio remoto al espacio local
+git pull origin master --allow-unrelated-histories: permite el git pull a pesar de no tener commits en comun, util sobretodo para el primer pull
+
+git push origin master: enviar los cambios del repositorio local al repositorio remoto
+NOTA: antes de hacer un git push es necesario hacer un git pull
