@@ -78,3 +78,9 @@ git pull origin master --allow-unrelated-histories: permite el git pull a pesar 
 
 git push origin master: enviar los cambios del repositorio local al repositorio remoto
 NOTA: antes de hacer un git push es necesario hacer un git pull
+
+
+Llaves publicas/Llaves privadas o Cifrado asimetrico de un solo camino:
+Consite en la creacion de:
+Una llave publica: es publica, no importa quien la sepa con ella se cifra los mensajes.
+Una llave privada: no debes divulgarla, con ella descifras los mensajes cifrados con la llave publica
