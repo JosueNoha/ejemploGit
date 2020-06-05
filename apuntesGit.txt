@@ -134,3 +134,7 @@ git clone url: clonar repositorio remoto a local
 
 Para asignar colaboradores al repositorio
 repositorio > settings (del repositorio) > collaborators > Add colaborator → a traves de un correo publico o nobre de usuario en gitHub
+
+
+Flujo profesional: Cada quien trabaja en su determinado branch y un delegado confirma los cambios al master una vez terminados los camnbios
+Nota: gitHub soporta archivos binarios aunque tarda en actualizarlos y no es una buena practica
