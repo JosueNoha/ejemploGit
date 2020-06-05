@@ -122,3 +122,9 @@ git push origin :refs/tags/nombre_tag: envia cambios de nombre_tag al repositori
 Otros comandos:
 git log --all --graph --decorate --oneline: mustra el arbol de commits de manera grafica y comprimida
 alias nombre_alias="comando": asigna nombre_alias a comando
+
+
+Comandos:
+git show-branch --all: muestra las ramas que existen y su historia.
+gitk: abre un software la historia del proyecto de manera visual
+git branch -m nobre_rama nombre_cambio: cambiar el nombre de una rama
