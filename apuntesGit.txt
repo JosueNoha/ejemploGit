@@ -107,3 +107,18 @@ ssh-add -K ulr_llaveprivada
 Agregar llave publica a git: settings\ssh and GPG keys\ new SSH key: titulo / llavepublica
 git remote set-url origin <urlssh>: cambia la direccion de origin 
 Nota: Crea nuevas llaves por cada dispositivo conectado a git hub
+
+
+Tags:
+permiten asignar una etiqueta a los commits mas importantes del proyecto generalmente va.b
+git tag -a nombre_tag hash_commit -m "mensaje": crea tag al commit referenciado con un mensaje
+git tag: muetra los tags del proyecto
+git show-ref --tads: muetra los hash asociados a los tags
+git push origin --tags: envia tags al repositorio remoto
+git tag -d nombre_tag: elimina nombre_tag del repositorio local
+git push origin :refs/tags/nombre_tag: envia cambios de nombre_tag al repositorio remoto (en este caso el borrado)
+
+
+Otros comandos:
+git log --all --graph --decorate --oneline: mustra el arbol de commits de manera grafica y comprimida
+alias nombre_alias="comando": asigna nombre_alias a comando
