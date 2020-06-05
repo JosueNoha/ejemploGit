@@ -128,3 +128,9 @@ Comandos:
 git show-branch --all: muestra las ramas que existen y su historia.
 gitk: abre un software la historia del proyecto de manera visual
 git branch -m nobre_rama nombre_cambio: cambiar el nombre de una rama
+
+Comandos:
+git clone url: clonar repositorio remoto a local
+
+Para asignar colaboradores al repositorio
+repositorio > settings (del repositorio) > collaborators > Add colaborator → a traves de un correo publico o nobre de usuario en gitHub
