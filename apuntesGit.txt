@@ -157,3 +157,6 @@ Pull request de un tercero: a traves del fork gitHub reconoce el base repository
 Actualizar el fork desde consola: 
 git remote addd upstream url: agrega un nuevo repositorio remoto (apuntador al repositorio original el repositorio otiginal)
 Nota: tambien se puede actualizar el fork desde gitHub a traves de un pull request
+
+deployment: agregar el proyecto git al server; no es una buena practica; hay que protejer el .git.
+paginas que conectan automatcamente las ramas de gitHub a tus servidores: travis.ci  jenkins (integracion continua/desarrollo continuo)
