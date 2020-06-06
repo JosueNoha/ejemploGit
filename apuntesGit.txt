@@ -144,3 +144,9 @@ Normalmente se bloquea la rama master.
 Antes de sacar el producto se lo prueba en un servidor de desarrolo o staging 
 pull request: estado intermedio antes de enviar el merge: los miembros del equipo revisan los cambios; al aprobarlos se ejecuta el merge
 DevObs: administrador de desarrollo
+
+Pull requests
+Repostorio virtual > pull request: base master compare to rama_cambios: se pueden agregar: comentarios, reviewers,  
+etc (utilidades para DevOps)
+Los reviewers pueden: Comentar, aprobar cambios o pedir cambios.
+Una vez los reviewers hayan aprobado los cambios se puede hacer el merge, debe haber un encargado para hecer el merge aunque cualquier colaborador puede hacerlo.
