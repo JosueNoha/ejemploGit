@@ -176,3 +176,11 @@ pages.github.com: instrucciones para crear tu pagina en gitHub pages
 -Crear un repositorio publico con tu nombre de usuario.github.io
 -Crear un archivo index.html
 -Modificar el source de repositorio > settings > GitHub Pages a master branch
+
+git rebase:
+Trae la rama entera y la trae o otra rama como si la rama que se trae no hubiese existido (sin merge); cambia la historia de la rama
+Comandos
+git rebase rama_cambios (desde la rama a traer los cambios)
+git branch -D nombre_rama: elimina la rama
+nota: es una mala practica; cambia la historia del branch
+
