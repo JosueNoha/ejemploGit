@@ -166,3 +166,7 @@ Los archivos binarios y la informacion que queremos proteger no deben enviarse a
 sintaxis:
 * ignorar todos los archivos con una extension ej: *.jpg
 ! generar exepciones ej: !logo.jpg
+
+readme.md: Descripcion de tu repositorio
+md:markdown: lenguaje intermedio de edicion de texto
+editor.md: editor online que facilita el uso de md
