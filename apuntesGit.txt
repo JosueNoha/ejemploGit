@@ -170,3 +170,9 @@ sintaxis:
 readme.md: Descripcion de tu repositorio
 md:markdown: lenguaje intermedio de edicion de texto
 editor.md: editor online que facilita el uso de md
+
+gitHub pages
+pages.github.com: instrucciones para crear tu pagina en gitHub pages
+-Crear un repositorio publico con tu nombre de usuario.github.io
+-Crear un archivo index.html
+-Modificar el source de repositorio > settings > GitHub Pages a master branch
