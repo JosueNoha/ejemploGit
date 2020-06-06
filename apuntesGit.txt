@@ -150,3 +150,10 @@ Repostorio virtual > pull request: base master compare to rama_cambios: se puede
 etc (utilidades para DevOps)
 Los reviewers pueden: Comentar, aprobar cambios o pedir cambios.
 Una vez los reviewers hayan aprobado los cambios se puede hacer el merge, debe haber un encargado para hecer el merge aunque cualquier colaborador puede hacerlo.
+
+
+Fork: crear una copia del estado actual del proyecto y clonarlo
+Pull request de un tercero: a traves del fork gitHub reconoce el base repository/ base branch y el head repository/compare branch
+Actualizar el fork desde consola: 
+git remote addd upstream url: agrega un nuevo repositorio remoto (apuntador al repositorio original el repositorio otiginal)
+Nota: tambien se puede actualizar el fork desde gitHub a traves de un pull request
