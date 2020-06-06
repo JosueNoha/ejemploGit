@@ -160,3 +160,9 @@ Nota: tambien se puede actualizar el fork desde gitHub a traves de un pull reque
 
 deployment: agregar el proyecto git al server; no es una buena practica; hay que protejer el .git.
 paginas que conectan automatcamente las ramas de gitHub a tus servidores: travis.ci  jenkins (integracion continua/desarrollo continuo)
+
+
+Los archivos binarios y la informacion que queremos proteger no deben enviarse al repositorio remoto para ello creamos el archivo .gitignore en el root del proyecto con todos los archivos que queremos que git ignore
+sintaxis:
+* ignorar todos los archivos con una extension ej: *.jpg
+! generar exepciones ej: !logo.jpg
