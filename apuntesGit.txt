@@ -138,3 +138,9 @@ repositorio > settings (del repositorio) > collaborators > Add colaborator → a
 
 Flujo profesional: Cada quien trabaja en su determinado branch y un delegado confirma los cambios al master una vez terminados los camnbios
 Nota: gitHub soporta archivos binarios aunque tarda en actualizarlos y no es una buena practica
+
+
+Normalmente se bloquea la rama master.
+Antes de sacar el producto se lo prueba en un servidor de desarrolo o staging 
+pull request: estado intermedio antes de enviar el merge: los miembros del equipo revisan los cambios; al aprobarlos se ejecuta el merge
+DevObs: administrador de desarrollo
