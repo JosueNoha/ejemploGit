@@ -184,3 +184,13 @@ git rebase rama_cambios (desde la rama a traer los cambios)
 git branch -D nombre_rama: elimina la rama
 nota: es una mala practica; cambia la historia del branch
 
+git stash:
+guarda los cambios de manera temporal y regresa al commit anterior; desde alli puedes moverte entre ramas para recuperar informacion desde esta; tambien puede ser util para hacer experimentos rapidos.
+Comandos:
+git stash: crea el estash
+git stash list: lista de stash creados
+git stash drop: elimina el stash
+git stash pop: abre el stash en la rama actual
+git stash branch nombre_rama: guarda el stash en nobre_rama
+Nota: recuerda regresar a la rama original antes de quitar el stash
+
