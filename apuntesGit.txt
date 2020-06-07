@@ -199,3 +199,8 @@ git clean --dry-run: prueba en seco revisa los archicos antes de borrarlos
 git clean -f: borra los archivos que pasan por prueba en seco
 No borra: carpetas y archivos ignorados por .gitignore
 
+cherry pick: trae un commit de otra ramma a la rama actual
+sintaxis:
+git cherry-pick hash_commit
+Nota:
+Es una mala practica: reconstruyes la historia
