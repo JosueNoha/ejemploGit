@@ -204,3 +204,9 @@ sintaxis:
 git cherry-pick hash_commit
 Nota:
 Es una mala practica: reconstruyes la historia
+
+
+git amend: modifica un commit en caso de error
+sintaxis:
+git add archivo_cambiado: es importante cuando haces amend
+git commit --amend: pega los cambios hechos al commit anterior
