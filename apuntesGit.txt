@@ -194,3 +194,8 @@ git stash pop: abre el stash en la rama actual
 git stash branch nombre_rama: guarda el stash en nobre_rama
 Nota: recuerda regresar a la rama original antes de quitar el stash
 
+git clean: quitar archivos no trackeados
+git clean --dry-run: prueba en seco revisa los archicos antes de borrarlos
+git clean -f: borra los archivos que pasan por prueba en seco
+No borra: carpetas y archivos ignorados por .gitignore
+
