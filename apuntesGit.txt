@@ -210,3 +210,7 @@ git amend: modifica un commit en caso de error
 sintaxis:
 git add archivo_cambiado: es importante cuando haces amend
 git commit --amend: pega los cambios hechos al commit anterior
+
+git reflog: historial de todo el proyecto: hash/head
+git reset --hard hash/head: reseteamos hasta el hash o head indicado
+Nota: todo queda guardado en reflog
