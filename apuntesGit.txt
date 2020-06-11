@@ -215,6 +215,7 @@ git reflog: historial de todo el proyecto: hash/head
 git reset --hard hash/head: reseteamos hasta el hash o head indicado
 Nota: todo queda guardado en reflog
 
+
 Buscadores:
 git grep palabra: busca palabra en el repositorio
 	     -n palabra: busca la palabra y muestra la linea
