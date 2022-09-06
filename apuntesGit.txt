@@ -69,6 +69,10 @@ VSC: Links de correccion automatica: Accept Current Change Accept Incoming Chang
 GitHub: superservidor de git, interfaz visual de codigos, herramienta colaborativa, repositorio de los programadores.
 README.md: Archivo de texto que explica el repositorio (muy buena practica tenerlo)
 
+git remote add origin git@github.com:JosueNoha/nw.git
+git branch -M main
+git push -u origin main
+
 git remote add origin url: crea un espacio remoto de nuestro proyecto
 git remote: muestra los espacios remotos del archivo (origin)
 git remote -v (verbal):  muestra los espacios remotos del archivo con su respectiva url y su funcion (fetch/push)
